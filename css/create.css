@@ -1,0 +1,41 @@
+/**
+* @Author: Julien SOBRITZ
+* @Date:   2016-11-28T10:32:14+01:00
+* @Email:  julien.s@codeur.online
+* @Filename: create.css
+* @Last modified by:   Julien SOBRITZ
+* @Last modified time: 2016-11-28T11:33:00+01:00
+*/
+
+body {
+  padding-left: 500px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+div {
+  padding-top: 75px;
+  padding-left: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input[type="radio"] {
+  color:#FFDBE1;
+  background-color:#FFDBE1;
+  border:none;
+}
+
+input + img {
+  height: 30px;
+}
