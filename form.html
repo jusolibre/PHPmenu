@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css.css" />
+
+</head>
+<body>
+
+
+<form method="post" action="index.html" id="formulaire">
+
+			Nom :
+
+      Balise* :
+		<br></br><input type="text" name="Balise" id="Balise" placeholder="Nom de la balise" size="30" maxlength="10"/>
+
+
+
+
+
+
+			        <br /><br />
+  <p> Descriptif </p>
+<textarea name="Descriptif" id="descriptif" rows="6" cols="30" placeholder="Descriptif de la balise" size="30" maxlength="10"/></textarea>
+
+
+
+<p id="msg-nom"></p>
+<p id="msg-descriptif"></p>
+
+<img src="./Image/firefox.png" width="50" height="50" alt="Mon Image"><input type="checkbox" name="Firefox" id="firefox" /> <label for="firefox"></label><br></br>
+<img src="./Image/chrome.png" width="50" height="50" alt="Mon Image"><input type="checkbox" name="Chrome" id="Chrome" /> <label for="Chrome"></label><br></br>
+<img src="./Image/microsoft-edge-logo-png-21.png" width="50" height="50" alt="Mon Image"><input type="checkbox" name="Microsoft Edge" id="Microsoft Edge" /> <label for="Microsoft Edge"></label><br></br>
+<img src="./Image/opera.png" width="50" height="50" alt="Mon Image"><input type="checkbox" name="Opera" id="Opera" /> <label for="opera"></label>
+<br></br>
+<br></br>
+Balise Auto Fermante
+<input type="radio" name="oui" value="oui id="oui" /><label for="oui">Oui</label>
+<input type="radio" name="Non" value="Non" id="Non" /> <label for="Non">Non</label><br />
+<br></br>
+
+
+Lien <input type="text" name="Lien Facultatif" id="Lien Facultatif"/>
+<br></br>
+
+<br></br>
+<input type="submit" value="Envoyer" />
+<input type="reset" value="Réinitialiser le formulaire" />
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
