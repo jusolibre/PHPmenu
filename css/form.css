@@ -1,0 +1,52 @@
+/**
+* @Author: Julien SOBRITZ
+* @Date:   2016-11-28T10:32:14+01:00
+* @Email:  julien.s@codeur.online
+* @Filename: create.css
+* @Last modified by:   Julien SOBRITZ
+* @Last modified time: 2016-11-28T11:33:00+01:00
+*/
+
+body
+{
+	background-image: url(../image/datacenter.jpg);
+	font-family: "Lato";
+}
+#conteneur
+{
+background-color: rgba(204,204,204,0.9);
+width: 450px;
+margin: 0 auto;
+margin-top: 15%;
+border-top: 5px solid white;
+border-bottom: 5px solid white;
+align-self: center;
+}
+#bg
+{
+	float: inline-start;
+}
+.nameLegend
+{
+	font-size: 1.5em;
+}
+.descriptionLegend
+{
+	font-size: 1.5em;
+}
+.compatibiliteLegend
+{
+	font-size: 1.5em;
+}
+.autoFermante
+{
+	font-size: 1.5em;
+}
+.lien
+{
+	font-size: 1.5em;
+}
+.send
+{
+	font-size: 1.5em;
+}
