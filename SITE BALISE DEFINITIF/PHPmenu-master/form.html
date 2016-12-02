@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+		<!-- <script type="text/javascript" src="js/getElementsByClassName.js"></script> -->
+		<!-- <script type="text/javascript" src="js/extended_box.js"></script> -->
+		<script language="javascript" type="text/javascript" src="js/index.js"></script>
+    <title>create balise</title>
+	</head>
+
+	<body>
+    <div id="conteneur">
+      <form id="formulaire">
+        <h1>Formulaire Balise</h1>
+        <div>
+          <label for="name" class="nameLegend">Nom de la balise :</label>
+          <input type="text" id="name" placeholder="nom de la balise" required></input>
+        </div>
+
+		<div>
+			<label for="name" class="descriptionLegend">Description de la balise :</label>
+			<input class="gi" type="button" value="G" onclick="" title="Mettre en Gras la sélection"  />
+			<input class="gi" type="button" value="I" onclick="" title="Mettre en Italique la sélection" />
+			<textarea placeholder="entrer la description de la balise ici" required></textarea>
+        </div>
+        <div id="check">
+          <legend class="compatibiliteLegend">Compatibilité : </legend>
+
+
+			<div class="logo"><div class="box"><img src="./Image/firefox.png" width="50" height="50" alt="Mon Image"><input type="checkbox" name="Firefox" value="1" id="firefox" />
+			<img src="./Image/chrome.png" width="50" height="50" alt="Mon Image" class="mumus"><input class="box" type="checkbox" name="Chrome" value="1" id="Chrome" /> <label for="Chrome"></label></div></div>
+			<div class="logo"><div class="box"><img src="./Image/microsoft-edge-logo-png-21.png" width="50" height="50" alt="Mon Image"><input  type="checkbox" name="Microsoft_Edge" value="1" id="Microsoft_Edge" />
+		  <img src="./Image/opera.png" width="50" height="50" alt="Mon Image" class="mumus"><input type="checkbox" name="Opera" value="1" id="Opera" /></div></div>
+
+        </div>
+        <div>
+          <fieldset>
+            <legend class="autoFermante">Auto-fermante :
+
+            </legend>
+				<div id="choix">
+				<input type="radio" name="auto-fermante" id="choix1" value="non" checked >
+				<label for="choix1">Non</label>
+				<input type="radio"  name="auto-fermante" id="choix2" value="oui" >
+				<label for="choix2">Oui</label>
+			</div>
+          </fieldset>
+				<legend class="lien">Lien supplémentaires</legend>
+				<input type="text" name="Lien_Facultatif" id="lien"/> <label for="Lien_Facultatif"></label>
+
+
+				<input type="submit" value="Envoyer" id="bouton"/>
+				<input type="reset" value="Réinitialiser le formulaire" id="reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
