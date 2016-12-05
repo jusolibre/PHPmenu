@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  background-image:url(../img/bibli2.png.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+nav {
+  padding:0px 0px 0px 0px;
+  width:220px;
+  border: 2px;
+  float: left;
+}
+ul {
+  padding-left: 0px;
+  border-radius: 5px;
+  padding-top: 0px;
+  margin: 0px;
+  padding-bottom: 0px;
+  background-color:#778899;
+}
+li {
+  padding-left: 15px;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+li:hover {
+  border-radius: 3px;
+  list-style: none;
+  padding-top: 10px;
+  background-color:#E6E6FA;
+}
+a {
+  color: black;
+  text-decoration: none;
+
+}
+section {
+  text-align: left;
+  margin-left: 20%;
+  background-color: rgba(225, 225, 225, 0.9);
+  color: #FFFFF0;
+  width: 40%;
+  padding-bottom: 100px;
+  padding-left: 25px;
+}
+div {
+  color: #778899;
+  text-align: left;
+  margin-left: 20%;
+  background-color:rgba(220,220,220,0.95);
+  width: 40%;
+  padding-bottom: 100px;
+  padding-left: 25px;
+}
+p {
+  margin-left: 10%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+h1 {
+  font-family:"DarkUnderground";
+  padding-left: 50px;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+h4 {
+  font-family:"DarkUnderground";
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+img {
+  width: 50px;
+}
+section[id="myForm"] {
+  margin-left: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+  background-color:#FFFFF0;
+}
+label {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+legend {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+input[type="text"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+textarea {
+  margin-top: 10px;
+}
+h1[id="add"] {
+  font-family:"DarkUnderground";
+  padding-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@font-face {
+	font-family: 'DarkUnderground';
+	src: url(../Font/DarkUnderground.eot);
+	src: local('☺'), url(../Font/DarkUnderground.woff) format('woff'), url(../Font/DarkUnderground.ttf) format('truetype'), url(../Font/DarkUnderground.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+h1[id="solo"] {
+  font-family: sans-serif;
+  padding-left: 50px;
+  background-color:rgba(220,220,220,0.95);
+  font-size: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,72 @@
+<!--
+@Author: Julien SOBRITZ
+@Date:   2016-11-28T10:09:04+01:00
+@Email:  julien.s@codeur.online
+@Filename: create.html
+@Last modified by:   Julien SOBRITZ
+@Last modified time: 2016-11-28T15:01:13+01:00
+-->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/colored_img.js"></script>
+    <title>create balise</title>
+	</head>
+
+	<body>
+    <section id="myForm">
+      <form method="post" action="index.php">
+        <h1 id="add">Ajout d'une nouvelle balise :</h1>
+        <div>
+          <label for="name" class="nameLegend">Nom de la balise :
+            <abbr title="Ce champ est obligatoire">*<br/></abbr>
+          </label>
+          <input type="text" id="name" name="nom" placeholder="nom de la balise" required />
+        </div>
+        <div>
+          <label for="name" class="descriptionLegend">Derscription de la balise :
+            <abbr title="Ce champ est obligatoire">*<br/></abbr>
+          </label>
+          <textarea name="description" placeholder="entrer la description de la balise ici"></textarea>
+        </div>
+        <div id="check">
+          <legend class="compatibiliteLegend">Compatibilité :
+            <abbr title="Ce champ est obligatoire">*<br/></abbr>
+          </legend>
+          <ul id="ulform">
+            <li>
+              <input id="checkimg0" type="checkbox" name="edge" onclick="change_img(0)" />
+              <img id="img0" src="img/notedge.jpg"></img>
+            </li>
+            <li>
+              <input id="checkimg1" type="checkbox" name="chrome" onclick="change_img(1)" />
+              <img id="img1" src="img/notchrome.jpg"></img>
+            </li>
+            <li>
+              <input id="checkimg2" type="checkbox" name="firefox" onclick="change_img(2)" />
+              <img id="img2" src="img/notfirefox.jpg"></img>
+            </li>
+            <li>
+              <input id="checkimg3" type="checkbox" name="opera" onclick="change_img(3)" />
+              <img id="img3" src="img/notopera.jpg"></img>
+            </li>
+          </ul>
+        </div>
+        <div>
+            <legend class="autoFermante">Auto-fermante :
+              <abbr title="Ce champ est obligatoire">*<br/></abbr>
+            </legend>
+            <input type="radio" required name="auto-fermante" id="choix1" value="non" checked required value="" />
+            <label for="choix1">Non</label>
+            <input type="radio" required name="auto-fermante" id="choix2" value="oui" required value="" />
+            <label for="choix2">Oui</label>
+        </div>
+				<input type="submit">
+      </form>
+    </section>
+  </body>
+</html>
